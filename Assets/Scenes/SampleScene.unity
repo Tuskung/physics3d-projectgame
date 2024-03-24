@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 778384649}
   m_Layer: 0
   m_Name: Trap (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1674,7 +1674,7 @@ Transform:
   m_GameObject: {fileID: 778384647}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.3, z: -13.25}
+  m_LocalPosition: {x: -0.03, y: -0.28, z: -13.25}
   m_LocalScale: {x: 0.16703625, y: 9.035212, z: 0.9672116}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1765,7 +1765,7 @@ GameObject:
   - component: {fileID: 852677231}
   m_Layer: 0
   m_Name: Trap (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2067,7 +2067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1748458467}
-  rotationSpeed: 10
+  rotationSpeed: 30
 --- !u!1 &1102287435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,7 +2397,7 @@ GameObject:
   - component: {fileID: 1276214321}
   m_Layer: 0
   m_Name: Trap (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2502,7 +2502,7 @@ GameObject:
   - component: {fileID: 1340433808}
   m_Layer: 0
   m_Name: Trap
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3613,7 +3613,7 @@ ConstantForce:
   m_Force: {x: 0, y: 0, z: 0}
   m_RelativeForce: {x: 0, y: 0, z: 0}
   m_Torque: {x: 0, y: 0, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 5}
+  m_RelativeTorque: {x: 0, y: 0, z: 3}
 --- !u!54 &1710449128
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3639,7 +3639,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 14
+  m_Constraints: 46
   m_CollisionDetection: 0
 --- !u!136 &1710449129
 CapsuleCollider:
@@ -3684,7 +3684,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b9bcd20c57e2a34498052cd8770b11fc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3722,7 +3722,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710449126}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.9, y: 10.98, z: 251.38}
   m_LocalScale: {x: 1, y: 6.0062, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4080,7 +4080,7 @@ GameObject:
   - component: {fileID: 1766198171}
   m_Layer: 0
   m_Name: Trap (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5679,6 +5679,6 @@ SceneRoots:
   - {fileID: 1547561241}
   - {fileID: 1793901468}
   - {fileID: 2021903767}
-  - {fileID: 1710449132}
   - {fileID: 2108445477}
+  - {fileID: 1710449132}
   - {fileID: 33473725}
